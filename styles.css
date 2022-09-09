@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:10%;
+    display:flex;
+    position: sticky;
+}
+.logo img{
+    height:40px;
+    width:100px;
+    padding:10px;
+    flex:1;
+}
+.nav1{
+    flex:1;
+}
+ul{
+    float:right;
+    display: flex;
+}
+ul li{
+   flex:1;
+    margin:2px;
+    /* padding-left:10px; */
+    /* padding-right:10px; */
+    margin:5px;
+    padding:15px;
+    float:right;
+    list-style-type: none;
+
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    
+}
+ul li a:hover{
+    color:yellow;
+}
+
+#home{
+    background-image:url(hellobg.jpg);
+    background-size:cover;
+    background-position: center;
+    height:600px;
+}
+#home h1{
+    text-align:center;
+    font-style: oblique;
+    font-family: cursive;
+}
+.c1{
+    background-color:lightsteelblue;
+}
+.c2{
+    background-color:lightcyan;
+}
+.c3{
+    background-color: lightsteelblue;
+}
+.c4{
+    background-color:lightcyan;
+}
+.c5{
+    background-color: lightsteelblue;
+}
+.c6{
+    background-color:lightcyan;
+}
+.c7{
+    background-color: lightsteelblue;
+}
+.c8{
+    background-color:lightcyan;
+}
+#services .c2{
+    display:flex;
+}
+#services h1{
+    text-align:center;
+    font-style:oblique;
+    font-family:cursive;
+}
+#services .c2 p{
+    flex:1;
+    text-align: justify;
+    word-spacing:1ch;
+    font-family:cursive;
+    line-height: 1.6em;
+    font-size: larger;
+}
+.cimage img{
+    height:400px;
+    width:500px; 
+    flex:1;
+}
+#services .c4{
+    display:flex;
+}
+
+#services .c4 p{
+    flex:1;
+    text-align: justify;
+    word-spacing:1ch;
+    font-family:cursive;
+    line-height: 1.6em;
+    font-size: larger;
+}
+.c+image img{
+    height: 300px;
+    width:300px; 
+    flex:1;
+}
+#services .c6{
+    display:flex;
+}
+
+#services .c6 p{
+    flex:1;
+    text-align: justify;
+    word-spacing:1ch;
+    font-family:cursive;
+    line-height: 1.6em;
+    font-size: larger;
+}
+.pyimage img{ 
+    width:500px;
+    height:400px;
+    flex:2;
+}
+#services .c8{
+    display:flex;
+}
+#services .c8 p{
+    flex:1;
+    text-align:justify;
+    word-spacing:1ch;
+    font-family:cursive;
+    line-height:1.6em;
+    font-size:larger;
+}
+.javaimage img{
+    width:500px;
+    height:400px;
+    flex:2;
+}
+#gallery h1{
+    text-align:center;
+    font-style:oblique;
+    font-family:cursive;
+}
+.images{
+    display:flex;
+}
+#about h1{
+    text-align:center;
+    font-style:oblique;
+    font-family:cursive;
+}
+.misvis{
+    display:flex;
+}
+.vis .h2{
+    font-family: cursive;
+    font-style:oblique;
+}
+.vis{
+    width:50%;
+    padding-left: 10px;
+}
+.mis{
+    width:50%;
+}
+#about .misvis .vis h2{
+    background-color:lightsteelblue ;
+    font-family:cursive;
+    font-style:oblique;
+}
+#about .misvis .mis h2{
+    background-color:lightsteelblue ;
+    font-family:cursive;
+    font-style:oblique;
+}
+#about p{
+    background-color: lightcyan;
+    text-align: justify; 
+    font-family:cursive;
+    line-height: 1.6em;
+}
+.hey img{
+    width:100%;
+}
+#contact h1{
+    text-align:center;
+    font-style:oblique;
+    font-family:cursive;
+}
+#contact form{
+    background-image: url(contactus.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    color: black;
+  }
+footer p{
+    font-family: cursive;
+}
+footer a{
+    font-family: cursive;
+}
